@@ -1,7 +1,7 @@
 #
 #  Settings for Fishing Treasures / Shake Treasures
 #  Last updated on 12/28/2020
-###
+# ##
 Fishing:
     LEATHER_BOOTS:
         Amount: 1
@@ -207,118 +207,118 @@ Fishing:
         Amount: 1
         XP: 200
         Rarity: LEGENDARY
-    NETHERITE_SWORD:
-        Amount: 1
-        XP: 200
-        Rarity: MYTHIC
-    NETHERITE_SHOVEL:
-        Amount: 1
-        XP: 200
-        Rarity: MYTHIC
-    NETHERITE_PICKAXE:
-        Amount: 1
-        XP: 200
-        Rarity: MYTHIC
-    NETHERITE_AXE:
-        Amount: 1
-        XP: 200
-        Rarity: MYTHIC
-    NETHERITE_HOE:
-        Amount: 1
-        XP: 200
-        Rarity: MYTHIC
-    NETHERITE_BOOTS:
-        Amount: 1
-        XP: 200
-        Rarity: MYTHIC
-    NETHERITE_HELMET:
-        Amount: 1
-        XP: 200
-        Rarity: MYTHIC
-    NETHERITE_LEGGINGS:
-        Amount: 1
-        XP: 200
-        Rarity: MYTHIC
-    NETHERITE_CHESTPLATE:
-        Amount: 1
-        XP: 200
-        Rarity: MYTHIC
+    # NETHERITE_SWORD:
+    # Amount: 1
+    # XP: 200
+    # Rarity: MYTHIC
+    # NETHERITE_SHOVEL:
+    # Amount: 1
+    # XP: 200
+    # Rarity: MYTHIC
+    # NETHERITE_PICKAXE:
+    # Amount: 1
+    # XP: 200
+    # Rarity: MYTHIC
+    # NETHERITE_AXE:
+    # Amount: 1
+    # XP: 200
+    # Rarity: MYTHIC
+    # NETHERITE_HOE:
+    # Amount: 1
+    # XP: 200
+    # Rarity: MYTHIC
+    # NETHERITE_BOOTS:
+    # Amount: 1
+    # XP: 200
+    # Rarity: MYTHIC
+    # NETHERITE_HELMET:
+    # Amount: 1
+    # XP: 200
+    # Rarity: MYTHIC
+    # NETHERITE_LEGGINGS:
+    # Amount: 1
+    # XP: 200
+    # Rarity: MYTHIC
+    # NETHERITE_CHESTPLATE:
+    # Amount: 1
+    # XP: 200
+    # Rarity: MYTHIC
     ENCHANTED_BOOK:
         Amount: 1
         XP: 400
         Rarity: LEGENDARY
+# NETHERITE_SCRAP:
+# Amount: 1
+# XP: 400
+# Rarity: LEGENDARY
 # Uncomment the below 3 lines to use the Whitelist, Alternatively rename it Enchantments_Blacklist to use the blacklist
 # NOTE: Enchantments_Whitelist and Enchantments_Blacklist only do anything for Enchanted_Books at the moment, you can't use it with any other treasure definition
 #        Enchantments_Whitelist:
 #            - Fortune
 #            - Protection
-    NETHERITE_SCRAP:
-        Amount: 1
-        XP: 400
-        Rarity: LEGENDARY
 #
-#	Fishing drop rates
-###
+# 	Fishing drop rates
+# ##
 Item_Drop_Rates:
     Tier_1:
-        COMMON: 7.50
+        COMMON: 7.5
         UNCOMMON: 1.25
         RARE: 0.25
-        EPIC: 0.10
+        EPIC: 0.1
         LEGENDARY: 0.01
         MYTHIC: 0.01
     Tier_2:
-        COMMON: 6.50
+        COMMON: 6.5
         UNCOMMON: 1.75
         RARE: 0.75
-        EPIC: 0.50
+        EPIC: 0.5
         LEGENDARY: 0.05
         MYTHIC: 0.01
     Tier_3:
-        COMMON: 3.50
+        COMMON: 3.5
         UNCOMMON: 2.75
         RARE: 1.25
-        EPIC: 1.00
-        LEGENDARY: 0.10
+        EPIC: 1.0
+        LEGENDARY: 0.1
         MYTHIC: 0.01
     Tier_4:
-        COMMON: 2.00
-        UNCOMMON: 3.50
+        COMMON: 2.0
+        UNCOMMON: 3.5
         RARE: 2.25
-        EPIC: 1.50
-        LEGENDARY: 1.00
+        EPIC: 1.5
+        LEGENDARY: 1.0
         MYTHIC: 0.01
     Tier_5:
-        COMMON: 1.50
+        COMMON: 1.5
         UNCOMMON: 3.75
-        RARE: 2.50
-        EPIC: 2.00
-        LEGENDARY: 1.00
+        RARE: 2.5
+        EPIC: 2.0
+        LEGENDARY: 1.0
         MYTHIC: 0.01
     Tier_6:
-        COMMON: 1.00
+        COMMON: 1.0
         UNCOMMON: 3.25
         RARE: 3.75
-        EPIC: 2.50
-        LEGENDARY: 1.50
+        EPIC: 2.5
+        LEGENDARY: 1.5
         MYTHIC: 0.05
     Tier_7:
         COMMON: 0.25
         UNCOMMON: 2.75
-        RARE: 4.00
-        EPIC: 5.00
-        LEGENDARY: 2.50
-        MYTHIC: 0.10
+        RARE: 4.0
+        EPIC: 5.0
+        LEGENDARY: 2.5
+        MYTHIC: 0.1
     Tier_8:
-        COMMON: 0.10
-        UNCOMMON: 1.50
-        RARE: 6.00
-        EPIC: 7.50
-        LEGENDARY: 5.00
+        COMMON: 0.1
+        UNCOMMON: 1.5
+        RARE: 6.0
+        EPIC: 7.5
+        LEGENDARY: 5.0
         MYTHIC: 0.25
 #
-#	Fishing enchantment drop rates
-###
+# 	Fishing enchantment drop rates
+# ##
 Enchantments_Rarity:
     COMMON:
         EFFICIENCY: 1
@@ -364,6 +364,9 @@ Enchantments_Rarity:
         FIRE_ASPECT: 1
         LOOTING: 2
         POWER: 3
+        SWIFT_SNEAK: 1
+        FROST_WALKER: 1
+        SOUL_SPEED: 1
     EPIC:
         EFFICIENCY: 4
         FORTUNE: 2
@@ -374,6 +377,9 @@ Enchantments_Rarity:
         BANE_OF_ARTHROPODS: 4
         POWER: 4
         FLAME: 1
+        SWIFT_SNEAK: 2
+        FROST_WALKER: 2
+        SOUL_SPEED: 2
     LEGENDARY:
         EFFICIENCY: 5
         UNBREAKING: 3
@@ -396,6 +402,8 @@ Enchantments_Rarity:
         POWER: 5
         PUNCH: 2
         INFINITY: 1
+        SWIFT_SNEAK: 3
+        SOUL_SPEED: 3
     MYTHIC:
         EFFICIENCY: 5
         UNBREAKING: 3
@@ -418,73 +426,265 @@ Enchantments_Rarity:
         POWER: 5
         PUNCH: 2
         INFINITY: 1
+        SWIFT_SNEAK: 3
 Enchantment_Drop_Rates:
     Tier_1:
-        COMMON: 5.00
-        UNCOMMON: 1.00
-        RARE: 0.10
+        COMMON: 5.0
+        UNCOMMON: 1.0
+        RARE: 0.1
         EPIC: 0.01
         LEGENDARY: 0.01
         MYTHIC: 0.01
     Tier_2:
-        COMMON: 7.50
-        UNCOMMON: 1.00
-        RARE: 0.10
+        COMMON: 7.5
+        UNCOMMON: 1.0
+        RARE: 0.1
         EPIC: 0.01
         LEGENDARY: 0.01
         MYTHIC: 0.01
     Tier_3:
-        COMMON: 7.50
-        UNCOMMON: 2.50
+        COMMON: 7.5
+        UNCOMMON: 2.5
         RARE: 0.25
-        EPIC: 0.10
+        EPIC: 0.1
         LEGENDARY: 0.01
         MYTHIC: 0.01
     Tier_4:
         COMMON: 10.0
         UNCOMMON: 2.75
-        RARE: 0.50
-        EPIC: 0.10
+        RARE: 0.5
+        EPIC: 0.1
         LEGENDARY: 0.05
         MYTHIC: 0.05
     Tier_5:
         COMMON: 10.0
-        UNCOMMON: 4.00
+        UNCOMMON: 4.0
         RARE: 0.75
         EPIC: 0.25
-        LEGENDARY: 0.10
-        MYTHIC: 0.10
+        LEGENDARY: 0.1
+        MYTHIC: 0.1
     Tier_6:
-        COMMON: 9.50
-        UNCOMMON: 5.50
+        COMMON: 9.5
+        UNCOMMON: 5.5
         RARE: 1.75
-        EPIC: 0.50
+        EPIC: 0.5
         LEGENDARY: 0.25
         MYTHIC: 0.25
     Tier_7:
-        COMMON: 8.50
-        UNCOMMON: 7.50
+        COMMON: 8.5
+        UNCOMMON: 7.5
         RARE: 2.75
         EPIC: 0.75
-        LEGENDARY: 0.50
-        MYTHIC: 0.50
+        LEGENDARY: 0.5
+        MYTHIC: 0.5
     Tier_8:
-        COMMON: 7.50
+        COMMON: 7.5
         UNCOMMON: 10.0
         RARE: 5.25
-        EPIC: 1.50
+        EPIC: 1.5
         LEGENDARY: 0.75
         MYTHIC: 0.75
 #
 #  Settings for Shake
 #  If you are in retro mode, Drop_Level is multiplied by 10.
-###
+# ##
 Shake:
+    ALLAY:
+        GLOW_INK_SAC:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 86.0
+            Drop_Level: 0
+        AMETHYST_SHARD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 10.0
+            Drop_Level: 0
+        NOTE_BLOCK:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        JUKEBOX:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+    AXOLOTL:
+        COD:
+            Data: 4
+            Amount: 1
+            XP: 0
+            Drop_Chance: 80.0
+            Drop_Level: 0
+        TUBE_CORAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        TUBE_CORAL_FAN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        BRAIN_CORAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        BRAIN_CORAL_FAN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        BUBBLE_CORAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        BUBBLE_CORAL_FAN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        FIRE_CORAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        FIRE_CORAL_FAN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        HORN_CORAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        HORN_CORAL_FAN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+    BAT:
+        EGG:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        LEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 99.0
+            Drop_Level: 0
+    BEE:
+        HONEYCOMB:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 83.0
+            Drop_Level: 0
+        DANDELION:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        POPPY:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        BLUE_ORCHID:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        ALLIUM:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        AZURE_BLUET:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        RED_TULIP:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        ORANGE_TULIP:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        WHITE_TULIP:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        PINK_TULIP:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        OXEYE_DAISY:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        CORNFLOWER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        LILY_OF_THE_VALLEY:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        WITHER_ROSE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        SUNFLOWER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        LILAC:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        ROSE_BUSH:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        PEONY:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
     BLAZE:
         BLAZE_ROD:
             Amount: 1
             XP: 0
             Drop_Chance: 100.0
+            Drop_Level: 0
+    CAT:
+        STRING:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
+            Drop_Level: 0
+        COD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
             Drop_Level: 0
     CAVE_SPIDER:
         SPIDER_EYE:
@@ -525,6 +725,17 @@ Shake:
             XP: 0
             Drop_Chance: 33.3
             Drop_Level: 0
+    COD:
+        COD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 95.0
+            Drop_Level: 0
+        BONE_MEAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
     COW:
         MILK_BUCKET:
             Amount: 1
@@ -543,20 +754,205 @@ Shake:
             Drop_Level: 0
     CREEPER:
         CREEPER_HEAD:
+            Data: 4
             Amount: 1
             XP: 0
-            Drop_Chance: 1.0
+            Drop_Chance: 2.0
             Drop_Level: 0
         GUNPOWDER:
             Amount: 1
             XP: 0
+            Drop_Chance: 98.0
+            Drop_Level: 0
+    DOLPHIN:
+        COD:
+            Data: 4
+            Amount: 1
+            XP: 0
+            Drop_Chance: 80.0
+            Drop_Level: 0
+        TUBE_CORAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        TUBE_CORAL_FAN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        BRAIN_CORAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        BRAIN_CORAL_FAN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        BUBBLE_CORAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        BUBBLE_CORAL_FAN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        FIRE_CORAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        FIRE_CORAL_FAN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        HORN_CORAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        HORN_CORAL_FAN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+    DONKEY:
+        LEATHER:
+            Amount: 1
+            XP: 0
             Drop_Chance: 99.0
+            Drop_Level: 0
+        SADDLE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+    DROWNED:
+        ROTTEN_FLESH:
+            Amount: 1
+            XP: 1
+            Drop_Chance: 92.5
+            Drop_Level: 0
+        GOLD_INGOT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        NAUTILUS_SHELL:
+            Amount: 1
+            XP: 1
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        TRIDENT:
+            Amount: 1
+            XP: 1
+            Drop_Chance: 0.5
+            Drop_Level: 0
+    ELDER_GUARDIAN:
+        WET_SPONGE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 100.0
             Drop_Level: 0
     ENDERMAN:
         ENDER_PEARL:
             Amount: 1
             XP: 0
             Drop_Chance: 100.0
+            Drop_Level: 0
+    ENDERMITE:
+        ENDER_PEARL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 100.0
+            Drop_Level: 0
+    EVOKER:
+        STRING:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 80.0
+            Drop_Level: 0
+        EMERALD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 10.0
+            Drop_Level: 0
+        OMINOUS_BANNER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 8.0
+            Drop_Level: 0
+        TOTEM_OF_UNDYING:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+    FOX:
+        LEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
+            Drop_Level: 0
+        FEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 25.0
+            Drop_Level: 0
+        EGG:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 8.0
+            Drop_Level: 0
+        WHEAT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 8.0
+            Drop_Level: 0
+        RABBIT_HIDE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 7.0
+            Drop_Level: 0
+        RABBIT_FOOT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+    FROG:
+        SLIME_BALL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
+            Drop_Level: 0
+        LILY_PAD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 30.0
+            Drop_Level: 0
+        FROGSPAWN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 8.0
+            Drop_Level: 0
+        OCHRE_FROGLIGHT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 4.0
+            Drop_Level: 0
+        VERDANT_FROGLIGHT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 4.0
+            Drop_Level: 0
+        PEARLESCENT_FROGLIGHT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 4.0
             Drop_Level: 0
     GHAST:
         GUNPOWDER:
@@ -569,6 +965,47 @@ Shake:
             XP: 0
             Drop_Chance: 50.0
             Drop_Level: 0
+    GIANT:
+        ZOMBIE_HEAD:
+            Data: 2
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        ROTTEN_FLESH:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 98.0
+            Drop_Level: 0
+    GLOW_SQUID:
+        GLOW_INK_SAC:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 100.0
+            Drop_Level: 0
+    GOAT:
+        GOAT_HORN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        MUTTON:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 98.0
+            Drop_Level: 0
+    GUARDIAN:
+        PRISMARINE_SHARD:
+            Data: 2
+            Amount: 1
+            XP: 0
+            Drop_Chance: 60.0
+            Drop_Level: 0
+        PRISMARINE_CRYSTAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 40.0
+            Drop_Level: 0
     HORSE:
         LEATHER:
             Amount: 1
@@ -579,6 +1016,45 @@ Shake:
             Amount: 1
             XP: 0
             Drop_Chance: 1.0
+            Drop_Level: 0
+    HOGLIN:
+        PORKCHOP:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
+            Drop_Level: 0
+        LEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
+            Drop_Level: 0
+    HUSK:
+        ZOMBIE_HEAD:
+            Data: 2
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        ROTTEN_FLESH:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 98.0
+            Drop_Level: 0
+    ILLUSIONER:
+        STRING:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 82.0
+            Drop_Level: 0
+        EMERALD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 10.0
+            Drop_Level: 0
+        OMINOUS_BANNER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 8.0
             Drop_Level: 0
     IRON_GOLEM:
         PUMPKIN:
@@ -595,6 +1071,12 @@ Shake:
             Amount: 1
             XP: 0
             Drop_Chance: 85.0
+            Drop_Level: 0
+    LLAMA:
+        LEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 100.0
             Drop_Level: 0
     MAGMA_CUBE:
         MAGMA_CREAM:
@@ -628,14 +1110,150 @@ Shake:
             XP: 0
             Drop_Chance: 30.0
             Drop_Level: 0
+    MULE:
+        LEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 99.0
+            Drop_Level: 0
+        SADDLE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+    OCELOT:
+        STRING:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 10.0
+            Drop_Level: 0
+        COD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 90.0
+            Drop_Level: 0
+    PANDA:
+        BAMBOO:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 95.0
+            Drop_Level: 0
+        SLIMEBALL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+    PARROT:
+        FEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 100.0
+            Drop_Level: 0
+    PHANTOM:
+        BONE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 40.0
+            Drop_Level: 0
+        LEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 40.0
+            Drop_Level: 0
+        PHANTOM_MEMBRANE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 20.0
+            Drop_Level: 0
     PIG:
         PORKCHOP:
             Amount: 1
             XP: 0
             Drop_Chance: 100.0
             Drop_Level: 0
-    PIG_ZOMBIE:
-        ROTTEN_FLESH:
+    PIGLIN:
+        BLACKSTONE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        PORKCHOP:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        GRAVEL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        GOLD_NUGGET:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        SPECTRAL_ARROW:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        NETHER_BRICK:
+            Amount: 2
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        SOUL_SAND:
+            Amount: 2
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        LEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        FIRE_CHARGE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        CRYING_OBSIDIAN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        OBSIDIAN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        NETHER_QUARTZ:
+            Amount: 2
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        STRING:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        ENDER_PEARL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        IRON_NUGGET:
+            Amount: 2
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        WATER_BOTTLE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+    PIGLIN_BRUTE:
+        PORKCHOP:
             Amount: 1
             XP: 0
             Drop_Chance: 50.0
@@ -643,10 +1261,31 @@ Shake:
         GOLD_NUGGET:
             Amount: 1
             XP: 0
-            Drop_Chance: 50.0
+            Drop_Chance: 35.0
+            Drop_Level: 0
+        GOLD_INGOT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 15.0
+            Drop_Level: 0
+    PILLAGER:
+        STRING:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 82.0
+            Drop_Level: 0
+        EMERALD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 10.0
+            Drop_Level: 0
+        OMINOUS_BANNER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 8.0
             Drop_Level: 0
     PLAYER:
-        SKELETON_SKULL:
+        PLAYER_HEAD:
             Amount: 1
             XP: 0
             Drop_Chance: 0.0
@@ -655,11 +1294,81 @@ Shake:
             Whole_Stacks: false
             Drop_Chance: 0.0
             Drop_Level: 0
+    POLAR_BEAR:
+        LEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
+            Drop_Level: 0
+        COD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 25.0
+            Drop_Level: 0
+        SALMON:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 25.0
+            Drop_Level: 0
+    PUFFERFISH:
+        PUFFERFISH:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 95.0
+            Drop_Level: 0
+        BONE_MEAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+    RABBIT:
+        RABBIT_HIDE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 47.5
+            Drop_Level: 0
+        RABBIT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 47.5
+            Drop_Level: 0
+        RABBIT_FOOT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+    RAVAGER:
+        LEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 90.0
+            Drop_Level: 0
+        SADDLE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 10.0
+            Drop_Level: 0
+    SALMON:
+        SALMON:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 95.0
+            Drop_Level: 0
+        BONE_MEAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
     SHEEP:
         WHITE_WOOL:
-            Amount: 3
+            Amount: 1
             XP: 0
-            Drop_Chance: 100.0
+            Drop_Chance: 50.0
+            Drop_Level: 0
+        MUTTON:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
             Drop_Level: 0
     SHULKER:
         SHULKER_SHELL:
@@ -672,8 +1381,15 @@ Shake:
             XP: 0
             Drop_Chance: 75.0
             Drop_Level: 0
+    SILVERFISH:
+        STONE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 25.0
+            Drop_Level: 0
     SKELETON:
         SKELETON_SKULL:
+            Data: 0
             Amount: 1
             XP: 0
             Drop_Chance: 2.0
@@ -688,11 +1404,43 @@ Shake:
             XP: 0
             Drop_Chance: 49.0
             Drop_Level: 0
+    SKELETON_HORSE:
+        BONE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 49.5
+            Drop_Level: 0
+        ARROW:
+            Amount: 2
+            XP: 0
+            Drop_Chance: 49.5
+            Drop_Level: 0
+        SADDLE:
+            Amount: 2
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
     SLIME:
         SLIME_BALL:
             Amount: 1
             XP: 0
             Drop_Chance: 100.0
+            Drop_Level: 0
+    SNOW_GOLEM:
+        SNOWBALL:
+            Amount: 8
+            XP: 0
+            Drop_Chance: 90.0
+            Drop_Level: 0
+        PUMPKIN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        STICK:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
             Drop_Level: 0
     SPIDER:
         SPIDER_EYE:
@@ -705,22 +1453,233 @@ Shake:
             XP: 0
             Drop_Chance: 50.0
             Drop_Level: 0
-    SNOWMAN:
-        PUMPKIN:
-            Amount: 1
-            XP: 0
-            Drop_Chance: 3.0
-            Drop_Level: 0
-        SNOWBALL:
-            Amount: 2
-            XP: 0
-            Drop_Chance: 97.0
-            Drop_Level: 0
     SQUID:
         INK_SAC:
             Amount: 1
             XP: 0
             Drop_Chance: 100.0
+            Drop_Level: 0
+    STRAY:
+        SKELETON_SKULL:
+            Data: 0
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        BONE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 49.0
+            Drop_Level: 0
+        ARROW:
+            Amount: 2
+            XP: 0
+            Drop_Chance: 49.0
+            Drop_Level: 0
+    STRIDER:
+        STRING:
+            Data: 0
+            Amount: 1
+            XP: 0
+            Drop_Chance: 99.0
+            Drop_Level: 0
+        SADDLE:
+            Data: 0
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+    TADPOLE:
+        SLIME_BALL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 97.0
+            Drop_Level: 0
+        FROGSPAWN:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 3.0
+            Drop_Level: 0
+    TRADER_LLAMA:
+        LEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 95.0
+            Drop_Level: 0
+        EMERALD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+    TROPICAL_FISH:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 95.0
+            Drop_Level: 0
+        BONE_MEAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+    TURTLE:
+        SEAGRASS:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 80.0
+            Drop_Level: 0
+        TURTLE_EGG:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 10.0
+            Drop_Level: 0
+        SCUTE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 10.0
+            Drop_Level: 0
+    VEX:
+        IRON_NUGGET:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 95.0
+            Drop_Level: 0
+        PHANTOM_MEMBRANE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+    VILLAGER:
+        EMERALD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 4.0
+            Drop_Level: 0
+        BEEF:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        WHEAT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        IRON_INGOT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        APPLE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        COAL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        BEETROOT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        ROTTEN_FLESH:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        CARROT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        LEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        BELL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 1.0
+            Drop_Level: 0
+        BREAD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        POTATO:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        PAPER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        BOOK:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        STICK:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        EXPERIENCE_BOTTLE:
+            Amount: 4
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        WHITE_WOOL:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        COD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+        FLINT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 5.0
+            Drop_Level: 0
+    VINDICATOR:
+        EMERALD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 92.0
+            Drop_Level: 0
+        OMINOUS_BANNER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 8.0
+            Drop_Level: 0
+    WANDERING_TRADER:
+        EMERALD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
+            Drop_Level: 0
+        MILK_BUCKET:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 12.5
+            Drop_Level: 0
+        BUCKET:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 12.5
+            Drop_Level: 0
+        LEAD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 25.0
             Drop_Level: 0
     WITCH:
         SPLASH_POTION|0|INSTANT_HEAL:
@@ -781,6 +1740,7 @@ Shake:
             Drop_Level: 0
     WITHER_SKELETON:
         WITHER_SKELETON_SKULL:
+            Data: 0
             Amount: 1
             XP: 0
             Drop_Chance: 2.0
@@ -795,8 +1755,51 @@ Shake:
             XP: 0
             Drop_Chance: 49.0
             Drop_Level: 0
+    WOLF:
+        LEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
+            Drop_Level: 0
+        BONE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 25.0
+            Drop_Level: 0
+        ARROW:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 8.0
+            Drop_Level: 0
+        MUTTON:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 8.0
+            Drop_Level: 0
+        RABBIT_HIDE:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 7.0
+            Drop_Level: 0
+        RABBIT_FOOT:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+    ZOGLIN:
+        ROTTEN_FLESH:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
+            Drop_Level: 0
+        LEATHER:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
+            Drop_Level: 0
     ZOMBIE:
         ZOMBIE_HEAD:
+            Data: 2
             Amount: 1
             XP: 0
             Drop_Chance: 2.0
@@ -805,4 +1808,32 @@ Shake:
             Amount: 1
             XP: 0
             Drop_Chance: 98.0
+            Drop_Level: 0
+    ZOMBIE_VILLAGER:
+        ZOMBIE_HEAD:
+            Data: 2
+            Amount: 1
+            XP: 0
+            Drop_Chance: 2.0
+            Drop_Level: 0
+        ROTTEN_FLESH:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 94.0
+            Drop_Level: 0
+        EMERALD:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 4.0
+            Drop_Level: 0
+    ZOMBIFIED_PIGLIN:
+        ROTTEN_FLESH:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
+            Drop_Level: 0
+        GOLD_NUGGET:
+            Amount: 1
+            XP: 0
+            Drop_Chance: 50.0
             Drop_Level: 0
